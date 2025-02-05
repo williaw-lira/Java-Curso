@@ -19,6 +19,9 @@ public class Escopos {
         variavelLocalExemplo(); // 2 - exemplo de variável local
         somaVariavelLocal(); // 1-  Exemplo de variável local com mesmo nome de variável global
 
+        // passo 3 - acessar variavel local no bloco main
+        System.out.println("exemplo 3 ->> ");
+        novoMetodo(); // 3 - exemplo de variável local com mesmo nome de variável global
 
     }
     
@@ -45,5 +48,14 @@ public class Escopos {
         int a = 10; // variavel local
         int soma = b + a; // variavel local + variavel local
         System.out.println("Soma de variavel local com variavel global: " + soma);
+        System.out.println(" " );
     }
+
+    public static void novoMetodo() {
+        // criando uma variavel que não esxiste
+        String nome = "jorge";
+        int idade = 20;
+        System.out.println("Nome: " + nome + " Idade: " + idade);
+    }
+
 }
