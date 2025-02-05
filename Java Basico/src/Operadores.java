@@ -1,32 +1,36 @@
+
 public class Operadores {
     public static void main(String[] args) {
         // Operadores aritméticos
+        System.out.println("Operadores aritmeticos -->");
         int soma = 10 + 5;
         int subtracao = 10 - 5;
         int multiplicacao = 10 * 5;
         int divisao = 10 / 5;
         int resto = 10 % 5;
         System.out.println("Soma: " + soma);
-        System.out.println("Subtração: " + subtracao);
-        System.out.println("Multiplicação: " + multiplicacao);
-        System.out.println("Divisão: " + divisao);
+        System.out.println("Subtracao: " + subtracao);
+        System.out.println("Multiplicacao: " + multiplicacao);
+        System.out.println("Divisao: " + divisao);
         System.out.println("Resto: " + resto);
 
         // Operadores de comparação
+        System.out.println("Operadores de comparacao -->");
         boolean dezMaiorQueVinte = 10 > 20;
         boolean dezMaiorIgualVinte = 10 >= 20;
         boolean dezMenorQueVinte = 10 < 20;
         boolean dezMenorIgualVinte = 10 <= 20;
         boolean dezIgualVinte = 10 == 20;
         boolean dezDiferenteVinte = 10 != 20;
-        System.out.println("Dez é maior que vinte? " + dezMaiorQueVinte);
-        System.out.println("Dez é maior ou igual a vinte? " + dezMaiorIgualVinte);
-        System.out.println("Dez é menor que vinte? " + dezMenorQueVinte);
-        System.out.println("Dez é menor ou igual a vinte? " + dezMenorIgualVinte);
-        System.out.println("Dez é igual a vinte? " + dezIgualVinte);
-        System.out.println("Dez é diferente de vinte? " + dezDiferenteVinte);
+        System.out.println("Dez e maior que vinte? " + dezMaiorQueVinte);
+        System.out.println("Dez e maior ou igual a vinte? " + dezMaiorIgualVinte);
+        System.out.println("Dez e menor que vinte? " + dezMenorQueVinte);
+        System.out.println("Dez e menor ou igual a vinte? " + dezMenorIgualVinte);
+        System.out.println("Dez e igual a vinte? " + dezIgualVinte);
+        System.out.println("Dez e diferente de vinte? " + dezDiferenteVinte);
 
         // Operadores lógicos
+        System.out.println("Operadores logicos -->");
         boolean verdadeiro = true;
         boolean falso = false;
         System.out.println(verdadeiro && falso); // E
@@ -34,6 +38,7 @@ public class Operadores {
         System.out.println(verdadeiro ^ falso); // OU exclusivo
         System.out.println(!verdadeiro); // Negação
 
+        System.out.println("Operadores unarios -->");
         // Operadores unários
         int numero = 10;
         numero++;
