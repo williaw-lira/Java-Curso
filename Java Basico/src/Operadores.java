@@ -33,6 +33,22 @@ public class Operadores {
         System.out.println(verdadeiro || falso); // OU
         System.out.println(verdadeiro ^ falso); // OU exclusivo
         System.out.println(!verdadeiro); // Negação
+
+        // Operadores unários
+        int numero = 10;
+        numero++;
+        // numero = numero + 1
+
+        int numero2 = 10;
+        numero2--;
+        // numero2 = numero2 - 1
+
+        // Pré-incremento
+        numero*=2;
+        // numero = numero * 2
+
+        System.out.println(numero);
+        System.out.println(numero2);
     }
 
 
