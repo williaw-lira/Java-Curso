@@ -7,9 +7,19 @@ public class ProcessoSeletivo {
         System.out.println("Processo Seletivo");
 
         double salarioBase = 2000.0; 
+        int candidatoSelecionados = 0; // Contador de candidatos selecionados
+        int candidatoAtual = 0; // O índice do próximo candidato na lista
+        
+        imprimirSelecionados();
 
-        analisarCandidato(salarioBase);
-        selecaoCandidatos(salarioBase); 
+    }
+    static void imprimirSelecionados(){
+        String[] candidatos = {"Ana", "Paulo", "Miguel", "Julia", "Vitoria", "Guilherme", "Henrique", "Augusto", "Joana"}; 
+        System.out.println("imprimindo lista de candidatos pelo indice  ");
+        for (int indice = 0; indice< candidatos.length; indice++){
+            System.out.println("o candidato de numero: "+(indice+1)+" e "+candidatos[indice]);
+
+        }
     }
 
     static void selecaoCandidatos(double salarioBase){
