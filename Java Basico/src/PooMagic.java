@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /*
  * Nesse mini projeto utilizando Orientação a Objeto,
- * vamos criar um universo de personagens.
+ * vamos criar um universo de personagens..
  */
 public class PooMagic {
 
