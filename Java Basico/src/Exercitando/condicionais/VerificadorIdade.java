@@ -1,4 +1,4 @@
-package Exercitando.IFELSE;
+package Exercitando.condicionais;
 import java.util.Locale;
 import java.util.Scanner;
 /**
