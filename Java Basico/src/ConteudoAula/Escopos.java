@@ -8,6 +8,7 @@
 //variáveis locais são destruídas após a execução do bloco de código
 
 //passo 1 - exemplo de variável global
+package ConteudoAula;
 public class Escopos {
     
     public static void main(String[] args) {

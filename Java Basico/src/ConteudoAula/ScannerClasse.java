@@ -1,3 +1,4 @@
+package ConteudoAula;
 // vamos aprender a utilizar o scanner para solicitar dados dos usuarios 
 // primeiro importamos a biblioteca do scanner
 import java.util.Scanner;

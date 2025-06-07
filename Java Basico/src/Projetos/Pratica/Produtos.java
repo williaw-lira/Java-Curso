@@ -6,11 +6,15 @@ public class Produtos {
     private String marca;
     private int quantidade;
 
-        public Produtos(String nome, float preco, String marca){
+        public Produtos(String nome, float preco, String marca ){
         this.nome = nome;
         this.preco = preco;
         this.marca = marca;        
     }
+        public Produtos (int quantidade){
+        this.quantidade = quantidade;
+    }
+
 
     public String getNome(){
         return nome;
@@ -30,9 +34,7 @@ public class Produtos {
         return quantidade;
     }
 
-    
-    public void  setQuantidade(int quantidade){
+    public void setQuantidade(){
         this.quantidade = quantidade;
     }
-
 }

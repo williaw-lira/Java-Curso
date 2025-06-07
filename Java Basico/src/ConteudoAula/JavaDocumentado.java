@@ -14,7 +14,7 @@
  */
 // o see e utilizado para referenciar outra classe
 
-
+package ConteudoAula;
 public class JavaDocumentado {
         // Metodo principal
         // Metodo arqumentos a serem passados ou arquivo principal
