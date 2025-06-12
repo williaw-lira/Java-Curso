@@ -3,7 +3,7 @@ package Projetos.Battle;
 
 public class Main {
     public static void main(String[] args) {
-        // Crie os objetos normalmente (assumindo que Humanos e Magos estão em arquivos separados ou são classes estáticas)
+        
         Magos william = new Magos("William", 300, 20, 200, "Fogo");
         Humanos joao = new Humanos("João", 250, 15, 5, 10);
 
