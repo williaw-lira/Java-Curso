@@ -20,8 +20,7 @@ classDiagram
 
     class iPhone {
         +modelo: String
-        +numeroSerie: String
-        +versaoIOS: String
+
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
